@@ -53,3 +53,68 @@ Reference - https://github.com/Viral3899/Housing_Price_Prediction
 8. app.py - To create a web application for our model
 9. templates folder : Containes html file for rendering 
 10. Dockerfile - To deploy in the cloud.
+
+
+
+
+
+└── .dockerignore
+├── [.github]
+│   ├── [workflow]
+│   │   └── main.yaml
+└── .gitignore
+└── Dockerfile
+└── LICENSE
+└── README.md
+└── app.py
+├── [config]
+│   └── config.yaml
+│   └── model.yaml
+│   └── schema.yaml
+└── demo.py
+├── [housing]
+│   └── __init__.py
+│   ├── [component]
+│   │   └── __init__.py
+│   │   └── data_ingestion.py
+│   │   └── data_transformation.py
+│   │   └── data_validation.py
+│   │   └── model_evaluation.py
+│   │   └── model_pusher.py
+│   │   └── model_trainer.py
+│   ├── [config]
+│   │   └── __init__.py
+│   │   └── configuration.py
+│   ├── [constant]
+│   │   └── __init__.py
+│   ├── [entity]
+│   │   └── __init__.py
+│   │   └── artifact_entity.py
+│   │   └── config_entity.py
+│   │   └── housing_predictor.py
+│   │   └── model_factory.py
+│   ├── [exception]
+│   │   └── __init__.py
+│   │   └── exception.py
+│   ├── [logger]
+│   │   └── __init__.py
+│   │   └── logger.py
+│   ├── [pipeline]
+│   │   └── __init__.py
+│   │   └── pipeline.py
+│   ├── [util]
+│   │   └── __init__.py
+│   │   └── util.py
+├── [notebook]
+│   └── example.ipynb
+│   └── example2.ipynb
+└── requirements.txt
+└── setup.py
+├── [static]
+│   ├── [css]
+│   │   └── index.css
+│   │   └── retrain.css
+├── [templates]
+│   └── index.html
+│   └── result.html
+│   └── retrain.html
